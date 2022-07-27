@@ -1,6 +1,8 @@
 #> txmath:api/cast/double_to_int
 #
 # storage txmath: x 値を指数と仮数に分ける
+#
+# 有効数字は2進数31桁 scorebordの限界 doubleの有効数字は2進数53桁なので桁落ちが発生する
 # 
 # 入力 == $x * 2 ^ $b が成り立つ
 #
