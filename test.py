@@ -1,3 +1,6 @@
+from math import log
+
+
 def float2str(f:float):
   b = 0
   _f = f
@@ -16,7 +19,9 @@ def float2str(f:float):
 
 # check(1677721600,-24)
 
-print(float2str(1/2.225074e-308))
+print(float2str(1/2**23))
+
+print(2**23)
 # print(1 * 2**-126 * (2**-23))
 
 
