@@ -14,9 +14,9 @@ def float2str(f:float):
 def check(x:int,b:int):
   print( float2str(x * 2 ** b) )
 
-check(128,-156)
+check(1677721600,-24)
 
-print(float2str(2**(-126-23)))
+# print(float2str(2**(-126-23)))
 # print(1 * 2**-126 * (2**-23))
 
 

@@ -27,6 +27,7 @@ def _binerayfunc(start:int,stop:int,treepath:Path):
   file.write_text(f"""#> {funcpath(file)}
 # [{start},{stop})
 # @internal
+say {h}
 execute if score $b txmath matches {h}.. {_binerayfunc(h,stop,treepath)}
 execute if score $b txmath matches ..{h-1} {_binerayfunc(start,h,treepath)}
 """)
