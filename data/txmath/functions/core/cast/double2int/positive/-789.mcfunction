@@ -1,0 +1,6 @@
+#> txmath:core/cast/double2int/positive/-789
+# [2^-791,2^-787)
+# @internal
+execute store result score $x txmath run data get storage txmath: x 3255866422304616344765552632188114158762089024568314531443485259650408807528140659922574316831813618526821245406949824436469141432675471230646169947427163108444901161872077421124549944292877941762189949285100879873872435565174053364826112
+execute if score $x txmath matches 1.. run function txmath:core/cast/double2int/positive/-788
+execute if score $x txmath matches 0 run function txmath:core/cast/double2int/positive/-790

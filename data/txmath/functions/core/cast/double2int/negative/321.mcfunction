@@ -1,0 +1,6 @@
+#> txmath:core/cast/double2int/negative/321
+# [2^320,2^322)
+# @internal
+execute store result score $x txmath run data get storage txmath: x 0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000023408381773460992
+execute if score $x txmath matches 1.. store success storage txmath:core b int 291 store result score $x txmath run data get storage txmath: x 0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000025134558542324360
+execute if score $x txmath matches 0 store success storage txmath:core b int 290 store result score $x txmath run data get storage txmath: x 0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000005026911708464872
