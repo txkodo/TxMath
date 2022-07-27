@@ -7,6 +7,7 @@
 #>
 # @api
 #define score_holder $x
+#define score_holder $b
 
 #>
 # @internal

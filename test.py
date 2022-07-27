@@ -8,15 +8,15 @@ def float2str(f:float):
 
   if b != 0:
     return f'{f:.{b}f}'
-  return str(f)
+  return str(int(f))
 
 
-def check(x:int,b:int):
-  print( float2str(x * 2 ** b) )
+# def check(x:int,b:int):
+#   print( float2str(x * 2 ** b) )
 
-check(1677721600,-24)
+# check(1677721600,-24)
 
-print(float2str(2**(1022+52)))
+print(float2str(1/2.225074e-308))
 # print(1 * 2**-126 * (2**-23))
 
 
