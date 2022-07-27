@@ -21,13 +21,12 @@ def funcpath(path:Path):
 
 def _binerayfunc(start:int,stop:int,treepath:Path):
   if stop - start == 1:
-    return f"store success storage txmath: x float {float2str(2**start)} run scoreboard players get $x txmath"
+    return f"store result storage txmath: x float {float2str(2**start)} run scoreboard players get $x txmath"
   h = (start + stop) // 2
   file = treepath/f'{str(h)}.mcfunction'
   file.write_text(f"""#> {funcpath(file)}
 # [{start},{stop})
 # @internal
-say {h}
 execute if score $b txmath matches {h}.. {_binerayfunc(h,stop,treepath)}
 execute if score $b txmath matches ..{h-1} {_binerayfunc(start,h,treepath)}
 """)
