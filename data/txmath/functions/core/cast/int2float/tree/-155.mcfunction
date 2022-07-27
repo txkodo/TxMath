@@ -1,0 +1,5 @@
+#> txmath:core/cast/int2float/tree/-155
+# [-156,-153)
+# @internal
+execute if score $b txmath matches -155.. run function txmath:core/cast/int2float/tree/-154
+execute if score $b txmath matches ..-156 store success storage txmath:core x float 0.000000000000000000000000000000000000000000000010947644252537633 run scoreboard players get $x txmath
