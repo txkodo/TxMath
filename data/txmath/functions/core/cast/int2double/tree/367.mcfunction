@@ -1,0 +1,5 @@
+#> txmath:core/cast/int2double/tree/367
+# [366,368)
+# @internal
+execute if score $b txmath matches 367.. store result storage txmath: x double 300613450595050653169853516389035139504087366260264943450533244356122755214669880763353471793250393988087676928 run scoreboard players get $x txmath
+execute if score $b txmath matches ..366 store result storage txmath: x double 150306725297525326584926758194517569752043683130132471725266622178061377607334940381676735896625196994043838464 run scoreboard players get $x txmath

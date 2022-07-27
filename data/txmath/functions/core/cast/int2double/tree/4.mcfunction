@@ -1,0 +1,5 @@
+#> txmath:core/cast/int2double/tree/4
+# [2,6)
+# @internal
+execute if score $b txmath matches 4.. run function txmath:core/cast/int2double/tree/5
+execute if score $b txmath matches ..3 run function txmath:core/cast/int2double/tree/3

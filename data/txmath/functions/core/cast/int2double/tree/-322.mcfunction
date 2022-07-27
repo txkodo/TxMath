@@ -1,0 +1,5 @@
+#> txmath:core/cast/int2double/tree/-322
+# [-323,-321)
+# @internal
+execute if score $b txmath matches -322.. store result storage txmath: x double 0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011704190886730496 run scoreboard players get $x txmath
+execute if score $b txmath matches ..-323 store result storage txmath: x double 0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005852095443365248 run scoreboard players get $x txmath
